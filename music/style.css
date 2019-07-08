@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Raleway", sans-serif;
+    background-color: black;
+    z-index: -1;
+}
+.container{
+    background-color: black;
+    z-index: -1;
 }
 .app {
     min-height: 100vh;
@@ -13,6 +18,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    
     
   }
   header h1{
@@ -29,12 +35,14 @@ body{
 }
 p{
     font-family: 'PT Mono', monospace;
+    text-align: center;
     color: antiquewhite;
 }
 .pads {
 background: lightblue;
 width: 100%;
 display: flex;
+//height: 50px;
 }
 .pads > div{
 height: 100px;
@@ -115,4 +123,50 @@ flex: 1;
     border-radius: 50%;
     bottom:0%;
     z-index: 0;
+}
+body
+{
+    font-family: "Raleway", sans-serif;
+    width:100%;
+    
+    height:100%;
+}
+#container { display:block; }
+
+@media only screen and (orientation:portrait){
+
+  .container {
+
+    height: 100vw;
+
+    -webkit-transform: rotate(90deg);
+
+    -moz-transform: rotate(90deg);
+
+    -o-transform: rotate(90deg);
+
+    -ms-transform: rotate(90deg);
+
+    transform: rotate(90deg);
+
+  }
+
+}
+
+@media only screen and (orientation:landscape){
+
+  .container {
+
+     -webkit-transform: rotate(0deg);
+
+     -moz-transform: rotate(0deg);
+
+     -o-transform: rotate(0deg);
+
+     -ms-transform: rotate(0deg);
+
+     transform: rotate(0deg);
+
+  }
+
 }
