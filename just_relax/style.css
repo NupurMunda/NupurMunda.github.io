@@ -1,0 +1,92 @@
+
+.app{
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.time-select, .sound-picker ,.player-container,.time-display{
+    
+    flex:1; 
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    
+}
+.player-container{
+    background : rgba(241, 116, 214, 0.685);
+    height: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.player-container svg{
+    position :absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-90deg);
+    pointer-events: none;
+}
+.time-display{
+    background : rgba(241, 116, 214, 0.685);
+    justify-content: space-evenly;    
+    align-items: center;
+    font-size: 50px;
+}
+.time-select{
+    background: lightcoral;
+    height: 10%;
+    display: flex;
+    
+}
+.sound-picker{
+    background : rgb(121, 248, 142);
+    height: 30%;
+}
+.time-select button{
+    background: none;
+    
+    width:30%;    
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all .5s ease;
+}
+.time-select button:hover{
+    color: rgb(255, 0, 106);
+    background: white;
+    
+}
+.sound-picker button{
+    border: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #4972a1;
+}
+.sound-picker button:hover{
+    background: #052a53;
+    color: #6fa8e9;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sound-picker .justify-content-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button, svg{
+    z-index: 1;
+}

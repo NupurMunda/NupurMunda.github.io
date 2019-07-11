@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style.css">
+    <title>Just Relax</title>
+</head>
+<body>
+    <div class="app container">
+        <div class="row player-container">
+            <div class="col">
+                <audio class="song">
+                        <source src="./sounds/1.mp3" />
+                    </audio>
+                    <img src="./svg/play.svg" class="play"></img>
+                    <svg 
+                        class="track-outline"
+                        width="453" 
+                        height="453" 
+                        viewBox="0 0 453 453" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle 
+                                cx="226.5" 
+                                cy="226.5" 
+                                r="216.5" 
+                                stroke="white" 
+                                stroke-width="20"/>
+                    </svg>
+                    <svg 
+                        class="moving-outline"
+                        width="453" 
+                        height="453" 
+                        viewBox="0 0 453 453" 
+                        fill="none" 
+                        xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+                    </svg>
+            </div>
+
+        </div>
+        <div class="row time-display text-center">
+                0:00
+        </div>
+        
+        <div class="row time-select d-flex justify-content-between">
+                <button type="button" class="btn btn-outline-secondary btn-lg" data-time="60">1 Minute</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg" data-time="120">2 Minutes</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg" data-time="300">5 Minutes</button>
+
+        </div>
+        <div class="row sound-picker two d-flex justify-content-between">
+                <div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12  d-flex justify-content-between">
+                
+                    <button type="button" class="btn btn-outline-light" data-sound="./sounds/1.mp3" data-img="./backg/1.png"><h1>1</h1></button>
+                    <button type="button" class="btn btn-outline-light" data-sound="./sounds/2.mp3" data-img="./backg/2.png"><h1>2</h1></button>
+                    <button type="button" class="btn btn-outline-light" data-sound="./sounds/3.mp3" data-img="./backg/3.png"><h1>3</h1></button>
+                    <button type="button" class="btn btn-outline-light" data-sound="./sounds/4.mp3" data-img="./backg/4.png"><h1>4</h1></button>
+                    <button type="button" class="btn btn-outline-light" data-sound="./sounds/5.mp3" data-img="./backg/5.png"><h1>5</h1></button>
+                </div>
+                <div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12  d-flex justify-content-between">
+                        <button type="button" class="btn btn-outline-light" data-sound="./sounds/6.mp3" data-img="./backg/6.jpg"><h1>6</h1></button>
+                        <button type="button" class="btn btn-outline-light" data-sound="./sounds/7.mp3" data-img="./backg/7.jpg"><h1>7</h1></button>
+                        <button type="button" class="btn btn-outline-light" data-sound="./sounds/8.mp3" data-img="./backg/8.jpg"><h1>8</h1></button>
+                        <button type="button" class="btn btn-outline-light" data-sound="./sounds/9.mp3" data-img="./backg/9.png"><h1>9</h1></button>
+                        <button type="button" class="btn btn-outline-light" data-sound="./sounds/10.mp3" data-img="./backg/10.png"><h1>10</h1></button>
+                </div>
+            
+
+        </div>
+    </div>
+    
+
+
+
+
+
+  
+    
+    <script src="./app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</body>
+</html>
