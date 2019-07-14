@@ -493,6 +493,8 @@ nav ul li a {
   border-style: double;
   border-width: 5px 10px 5px 10px;
   border-color: #004d40 #006064  #009688 #80cbc4;
+  /*height: auto;
+  max-width: 100%;*/
 }
 .modal-body{
   background:#cfd8dc;
