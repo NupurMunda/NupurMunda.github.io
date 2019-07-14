@@ -757,7 +757,7 @@ nav ul li a {
   opacity: 0.9;
 }
 
- .portfolio-container .btn{
+ .portfolio-container .btn-light{
   border: none;
   width: 35px;
   height: 35px;
@@ -767,9 +767,9 @@ nav ul li a {
   font-size: 30px;
   position: relative;
 }
-.btn-ligh h5{
+.btn-light h5{
   font-size: 30px;
   position: absolute;
-  top: -10%;
+  top: -5%;
   left:20%;
 }
