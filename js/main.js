@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Nupur Munda.",  "Front-End Developer.", "Data Scientist.", "Freelancer."],
+      strings: ["Nupur Munda.",  "Software Development Engineer.", "Indie Game Developer."],
       typeSpeed: 100,
       loop: true,
     });
